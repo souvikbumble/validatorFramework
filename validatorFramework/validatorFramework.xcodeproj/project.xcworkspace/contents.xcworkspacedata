@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/souvikmaiti/Documents/test/validatorFramework/validatorFramework/validatorFramework.xcodeproj">
    </FileRef>
 </Workspace>

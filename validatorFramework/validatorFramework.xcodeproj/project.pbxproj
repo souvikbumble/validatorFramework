@@ -13,7 +13,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D408EC6628EEA794007AC6B8 /* testValidatorSM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = testValidatorSM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D408EC6628EEA794007AC6B8 /* validatorFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = validatorFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D408EC6928EEA794007AC6B8 /* testValidatorSM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testValidatorSM.h; sourceTree = "<group>"; };
 		D408EC7128EEA7A7007AC6B8 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 		D408EC7328EEA7C3007AC6B8 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
@@ -34,7 +34,7 @@
 		D408EC5C28EEA794007AC6B8 = {
 			isa = PBXGroup;
 			children = (
-				D408EC6828EEA794007AC6B8 /* testValidatorSM */,
+				D408EC6828EEA794007AC6B8 /* validatorFramework */,
 				D408EC6728EEA794007AC6B8 /* Products */,
 				D408EC7028EEA7A7007AC6B8 /* Frameworks */,
 			);
@@ -43,19 +43,19 @@
 		D408EC6728EEA794007AC6B8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D408EC6628EEA794007AC6B8 /* testValidatorSM.framework */,
+				D408EC6628EEA794007AC6B8 /* validatorFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D408EC6828EEA794007AC6B8 /* testValidatorSM */ = {
+		D408EC6828EEA794007AC6B8 /* validatorFramework */ = {
 			isa = PBXGroup;
 			children = (
 				D408EC7328EEA7C3007AC6B8 /* Validator.swift */,
 				D408EC6928EEA794007AC6B8 /* testValidatorSM.h */,
 				D408EC7928EEA9DF007AC6B8 /* ValidFuncTesting.swift */,
 			);
-			path = testValidatorSM;
+			path = validatorFramework;
 			sourceTree = "<group>";
 		};
 		D408EC7028EEA7A7007AC6B8 /* Frameworks */ = {
@@ -80,9 +80,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D408EC6528EEA794007AC6B8 /* testValidatorSM */ = {
+		D408EC6528EEA794007AC6B8 /* validatorFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D408EC6D28EEA794007AC6B8 /* Build configuration list for PBXNativeTarget "testValidatorSM" */;
+			buildConfigurationList = D408EC6D28EEA794007AC6B8 /* Build configuration list for PBXNativeTarget "validatorFramework" */;
 			buildPhases = (
 				D408EC6128EEA794007AC6B8 /* Headers */,
 				D408EC6228EEA794007AC6B8 /* Sources */,
@@ -93,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = testValidatorSM;
+			name = validatorFramework;
 			productName = testValidatorSM;
-			productReference = D408EC6628EEA794007AC6B8 /* testValidatorSM.framework */;
+			productReference = D408EC6628EEA794007AC6B8 /* validatorFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D408EC6028EEA794007AC6B8 /* Build configuration list for PBXProject "testValidatorSM" */;
+			buildConfigurationList = D408EC6028EEA794007AC6B8 /* Build configuration list for PBXProject "validatorFramework" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D408EC6528EEA794007AC6B8 /* testValidatorSM */,
+				D408EC6528EEA794007AC6B8 /* validatorFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -338,7 +338,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D408EC6028EEA794007AC6B8 /* Build configuration list for PBXProject "testValidatorSM" */ = {
+		D408EC6028EEA794007AC6B8 /* Build configuration list for PBXProject "validatorFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D408EC6B28EEA794007AC6B8 /* Debug */,
@@ -347,7 +347,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D408EC6D28EEA794007AC6B8 /* Build configuration list for PBXNativeTarget "testValidatorSM" */ = {
+		D408EC6D28EEA794007AC6B8 /* Build configuration list for PBXNativeTarget "validatorFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D408EC6E28EEA794007AC6B8 /* Debug */,
